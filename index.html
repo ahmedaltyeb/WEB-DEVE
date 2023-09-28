@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Protfolio Tayabio</title>
+        <link rel="sortcut icon" type="img/png" href="images/png/focio.png">
+        <!--box icons-->
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    
+        <!--custom css-->
+        
+    </head>
+
+    <body>
+    
+        <!---header design-->
+
+        <header class="header">
+            <!--<a href="#" class="logo">TaYa<span>Bio</span></a>-->
+            <div class="header__logo-container">
+            <div class="header__logo-img-cont">
+                <img
+                src="./images/png/profile.png"
+                class="header__logo-img"
+                />
+                <style>
+                    .header__logo-container {
+                        display: flex;
+                        align-items: center;
+                        cursor: pointer;
+                        color: #333;
+                        transition: color .3s; }
+                    .header__logo-container:hover {
+                        color: #0062b9; }
+                    .header__logo-img-cont {
+                        width: 5rem;
+                        height: 5rem;
+                        border-radius: 50px;
+                        overflow: hidden;
+                        margin-right: 1.5rem;
+                        background: #0062b9; }
+                        @media only screen and (max-width: 56.25em) {
+                    .header__logo-img-cont {
+                            width: 4.5rem;
+                            height: 4.5rem;
+                            margin-right: 1.2rem; } }
+                    .header__logo-img {
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover;
+                        object-position: center;
+                        display: block; }
+                    .header__logo-sub {
+                        font-size: 1.8rem;
+                        text-transform: uppercase;
+                        font-weight: 700;
+                        letter-spacing: 1px;
+                        color: #e9e0e0;
+                    }
+                    .header__logo-sub:hover{
+                        color: #472424;
+                    }
+                </style>
+                
+            </div>
+            <span class="header__logo-sub">Ahmed Eltyeb</span>
+        </div>
+            <i class='bx bx-menu' id="menu-icon"></i>
+    
+            <nav class="navbar">
+                <a href="#home">Home</a>
+                <a href="#about">About Me</a>
+                <a href="#services">Services</a>
+                <a href="#protfolio">Protfolio</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </header>
+    
+        <!---home section design--->
+        <section class="home" id="home">
+            <div class="home-content">
+                <h3>Hello, <span>It's Me</span></h3>
+                <h1>AHMED ELTYEB </h1>
+                <h3>And I'm a <span class="multiple-text"></span></h3>
+                <p>I'm Ahmed Eltyeb Abdelrhim, web developer, UI/UX design and Javascript.</p>
+
+                <!--Social Link
+                    1- https://www.linkedin.com/in/ahmed-eltyeb
+                    2- https://github.com/ahmedaltyeb
+                    3- https://twitter.com/ahmed_altyeb
+                    4- https://www.youtube.com/channel/UCVYHXRAZ8la-7Rr8zZcYBGA
+                    5- https://www.instagram.com/ahmed_al.tyeb/
+            -->
+
+                <div class="social-media">
+                    <a href="https://www.facebook.com/ahmedaltyeeeb/" target="_blank"><i class='bx bxl-facebook'></i></a>
+                    <a href="https://twitter.com/ahmed_altyeb" target="_blank"><i class='bx bxl-twitter' ></i></a>
+                    <a href="https://www.linkedin.com/in/ahmed-eltyeb" target="_blank"><i class='bx bxl-linkedin' ></i></a>
+                    <a href="https://www.instagram.com/ahmedaltyeeeb/" target="_blank"><i class='bx bxl-instagram' ></i></a>
+                    <a href="https://www.youtube.com/channel/UCVYHXRAZ8la-7Rr8zZcYBGA" target="_blank"><i class='bx bxl-youtube'></i></a>
+                    <a href="https://github.com/ahmedaltyeb" target="_blank"><i class='bx bxl-github'></i></a>
+                </div>
+                    <a href="#" class="btn">Download CV</a>
+            </div>
+    
+            <div class="home-img">
+                <img src="images/png/p2.png" alt=""> 
+            </div>
+        </section>
+    
+        <!--about section design-->
+    
+        <section class="about" id="about">
+            <div class="about-img">
+                <img src="images/png/p2.png" alt="">
+            </div>
+    
+            <div class="about-content">
+                <h2 class="heading">About <span>Me</span></h2>
+                <h3>Frontend Devevloper!</h3>
+                <p> Ahmed Eltyeb is a driven freelance programmer with extensive 
+                    expertise in creating desktop and web applications. 
+                    This covers the entirety of front end design as well as brand 
+                    identification, graphics, illustrations, etc. 
+                    As a way to demonstrate his front end abilities,
+                    Ahmed Eltyeb web developer portfolio makes excellent use of the fullPage.
+                    js JavaScript module to create a lovely full-screen experience.
+                </p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </section>
+        
+    
+        <!--Services section design-->
+    
+        <section class="services" id="services">
+            <h2 class="heading">Our <span>Services</span></h2>
+    
+            <!--Web Development-->
+            <div class="services-containter">
+                <div class="services-box">
+                    <i class='bx bx-code-alt'></i>
+                    <h3>Web Development</h3>
+                    <p>I'm a web developer with over 1
+                    years of experience in the industry. 
+                    I'm passionate about creating innovative andl</p>
+                    <a href="https://github.com/ahmedaltyeb/" target="_blank" class="btn">Read More</a>
+                </div>
+        
+                <!--Graphic Design-->
+                <div class="services-box">
+                    <i class='bx bxs-paint'></i>
+                    <h3>Graphic Design </h3>
+                    <p>I'm a web developer with over 1
+                    years of experience in the industry. 
+                    I'm passionate about creating innovative andl</p>
+                    <a href="https://github.com/ahmedaltyeb/" target="_blank" class="btn">Read More</a>
+                </div>
+        
+            <!--Digital Marketing-->
+                <div class="services-box">
+                    <i class='bx bx-bar-chart-alt'></i>
+                    <h3>Digital marketing</h3>
+                    <p>I'm a web developer with over 1
+                    years of experience in the industry. 
+                    I'm passionate about creating innovative andl</p>
+                    <a href="https://github.com/ahmedaltyeb/" target="_blank" class="btn">Read More</a>
+                </div>
+        
+        
+                <!--Digital marketing--
+                <div class="services-box">
+                    <i class='bx bx-bar-chart-alt'></i>
+                    <h3>Digital marketing</h3>
+                    <p>I'm a web developer with over [Number of Years]
+                    years of experience in the industry. 
+                    I'm passionate about creating innovative andl</p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+        
+                <!--Digital marketing--
+                <div class="services-box">
+                    <i class='bx bx-bar-chart-alt'></i>
+                    <h3>Digital marketing</h3>
+                    <p>I'm a web developer with over [Number of Years]
+                    years of experience in the industry. 
+                    I'm passionate about creating innovative andl</p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+        
+               <!--Digital marketing---
+                <div class="services-box">
+                    <i class='bx bx-bar-chart-alt'></i>
+                    <h3>Digital marketing</h3>
+                    <p>I'm a web developer with over [Number of Years]
+                    years of experience in the industry. 
+                    I'm passionate about creating innovative andl</p>
+                    <a href="#" class="btn">Read More</a>
+                </div> -->
+        
+            </div>
+        </section>
+        
+        <!--- protfolio section design-->
+
+        <section class="protfolio" id="protfolio">
+            <h2 class="heading">Latest <span>Project</span></h2>
+                <!--1-->
+            <div class="protfolio-containter">
+                <div class="protfolio-box">
+                    <img src="images/png/Home page.png" alt="">
+                    <div class="protfolio-layer">
+                        <h4>My Portfolio</h4>
+                        <p>I'm a web developer with over 1
+                        of experience in the industry.</p>
+                        <a href="#"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+                <!--2-->
+                <div class="protfolio-box">
+                    <img src="images/png/FoodP.png" alt="">
+                    <div class="protfolio-layer">
+                        <h4> Restaurant Project </h4>
+                        <p>I'm a web developer with over 1 of experience in the industry.</p>
+                            <a href="#"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+                <!--3-->
+                <div class="protfolio-box">
+                    <img src="images/png/RESMP.png" alt="">
+                    <div class="protfolio-layer">
+                        <h4>Real Estate System</h4>
+                        <p> "Welcome to my portfolio! I'm passionate about 
+                            Front End Developer and dedicated to delivering high-quality work."</p>
+                        <a href="#"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+                <!--4-->
+                <div class="protfolio-box">
+                    <img src="images/A5.jpg" alt="">
+                    <div class="protfolio-layer">
+                        <h4>Web Design</h4>
+                        <p>I'm a web developer with over 
+                        1 of experience in the industry.</p>
+                        <a href="#"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+                <!--5-->
+                <div class="protfolio-box">
+                    <img src="images/A6.jpg" alt="">
+                    <div class="protfolio-layer">
+                        <h4>Web </h4>
+                        <p>I'm a web developer with over 
+                        1 of experience in the industry.</p>
+                        <a href="#"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+                <!--6-->
+                <div class="protfolio-box">
+                    <img src="images/A2.jpg" alt="">
+                    <div class="protfolio-layer">
+                        <h4>Web Design</h4>
+                        <p>I'm a web developer with over [Number of Yea
+                        rs of experience in the industry.</p>
+                        <a href="#"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--contact section design -->
+        <section class="contact" id="contact">
+            <h2 class="heading">Contact <span>Me</span></h2>
+
+            <form action="#">
+                <div class="input-box">
+                    <input type="text" placeholder="Full Name">
+                    <input type="email" placeholder="Email Adderss">
+                </div>
+                <div class="input-box">
+                    <input type="number" placeholder="Mobile Number">
+                    <input type="text" placeholder="Email Subject">
+                </div>
+                <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+                <input type="submit" value="Send Message" class="btn">
+            </form>
+        </section>
+
+        <!--footer design--->
+        <footer class="footer">
+            <div class="footer-text">
+                <p>Copyrigth &copy; 2023 by Ahmed Eltyeb | All Rigths Reserved.</p>
+            </div>
+<!--<dvi class"footer-iconTop">-->
+            <div class="social-media">
+                <div class="footer-social-media">
+                    <a href="https://www.facebook.com/ahmedaltyeeeb/" target="_blank"><i class='bx bxl-facebook'></i></a>
+                    <a href="https://twitter.com/ahmed_altyeb" target="_blank"><i class='bx bxl-twitter' ></i></a>
+                    <a href="https://www.linkedin.com/in/ahmed-eltyeb" target="_blank"><i class='bx bxl-linkedin' ></i></a>
+                    <a href="https://www.instagram.com/ahmedaltyeeeb/" target="_blank"><i class='bx bxl-instagram' ></i></a>
+                    <a href="https://www.youtube.com/channel/UCVYHXRAZ8la-7Rr8zZcYBGA" target="_blank"><i class='bx bxl-youtube'></i></a>
+                    <a href="https://github.com/ahmedaltyeb" target="_blank"><i class='bx bxl-github'></i></a>
+                    <a href="#home"><i class='bx bx-up-arrow-alt' ></i></a>
+                </div>
+                
+            </div>
+        </footer>
+
+        <!---scroll reveal-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!-- typed js-->
+        <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+        <!--custom js-->
+        <script src="script.js"></script>
+    
+    </body>
+
+</html>
